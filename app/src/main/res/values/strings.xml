@@ -16,6 +16,8 @@
     <!--Strings pentru despre-->
     <string name="header_despre">Aplicatie dezvoltată de:</string>
     <string name="continut_despre_1">Cristian Palcău si Tudor Vlad \n \n Pentru sugestii, opinii si reclamaţii ne puteţi scrie un e-mail la una din adresele: </string>
-    <string name="email_despre">palcau.cristi@gmail.com \n tudor.vlad@infoexcel.edu.ro</string>
+    <string name="email_despre1">Email Cristian: palcau.cristi@gmail.com</string>
+    <string name="email_despre2">Email Tudor: tudor.vlad@infoexcel.edu.ro</string>
     <string name="footer_despre">Orar Universitatea Transilvania Brasov \n Inginerie Electrică si Ştiinţa Calculatoarelor \n©2015</string>
+    <string name="ziua_orar">Ziua</string>
 </resources>

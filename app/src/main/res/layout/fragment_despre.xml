@@ -33,20 +33,31 @@
 
 
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:id="@+id/editText"
-        android:textSize="17sp"
-        android:text="@string/email_despre"
-        android:textColor="#fffafafa"
-        android:textIsSelectable="true"
+        android:text="@string/email_despre1"
+        android:autoLink="email"
+        android:textColorLink="#fffafafa"
+        android:textColor="#ffb9b9b9"
         android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_alignEnd="@+id/editText2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_despre2"
+        android:autoLink="email"
+        android:textColorLink="#fffafafa"
+        android:textColor="#ffb9b9b9"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
         android:gravity="center"/>
 
 
