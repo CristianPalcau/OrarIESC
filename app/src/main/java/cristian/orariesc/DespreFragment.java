@@ -7,17 +7,22 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 /**
  * Created by Cristi on 16.05.2015.
  */
 public class DespreFragment extends Fragment {
-
     public static DespreFragment newInstance(){
         DespreFragment fragment = new DespreFragment();
         return fragment;
     }
-    public DespreFragment(){}
+    public DespreFragment()
+    {
+
+    }
 
     @Nullable
     @Override
@@ -31,4 +36,5 @@ public class DespreFragment extends Fragment {
         super.onAttach(activity);
         ((MainActivity) activity).onSectionAttached(2);
     }
+
 }
